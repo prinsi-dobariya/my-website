@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-text{
+    text-align: center;
+    margin:  auto ;
+    max-width: 700px;
+}
+
+.menu-text h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.menu-text p{
+    line-height: 1.4;
+    color: #1f1f1f;
+    font-size: 20px;
+}
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 25px;
+    margin-bottom: 36px;
+}
+
+.menu-cards{
+    max-width: 350px;
+    background: #fff;
+    border-radius: 15px;
+    /* overflow: hidden; */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin: auto;
+}
+
+.menu-cards:hover{
+    transform: translateY(-8px);
+}
+
+.menu-cards img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+    border-radius: 17px;
+}
+
+.menu-cards h3{
+    font-size: 24px;
+    padding: 20px 20px 10px;
+    color: #222;
+}
+
+.menu-cards h4{
+    color: orange;
+    font-size: 22px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.menu-cards p{
+    padding: 0 20px 20px;
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 992px){
+
+    .menu-text{
+        padding: 0 20px;
+    }
+    .menu-text h2{
+        font-size: 35px;
+    }
+    .menu-text p{
+        font-size: 18px;
+    }
+    .menus{
+        justify-content: center;
+        gap: 20px;
+    }
+    .menu-cards{
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .menu-text{
+        padding: 0 15px;
+    }
+
+    .menu-text h2{
+        font-size: 30px;
+    }
+
+    .menu-text p{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .menus{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 12px;
+    }.menu-cards{
+        width: 100%;
+        max-width: 450px;
+    }
+    .menu-cards img{
+        height: 220px;
+    }
+    .menu-cards h3{
+        font-size: 22px;
+    }
+    .menu-cards h4{
+        font-size: 20px;
+    }
+   .menu-cards p{
+        font-size: 15px;
+    }
+}
+
