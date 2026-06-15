@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-/* body{
-    overflow-x: hidden;
-} */
 
 .about1 {
   position: relative;
@@ -308,7 +305,7 @@
   }
 }
 
-/* whuhy */
+/* why */
 .why-us {
   width: 100%;
   padding: 30px 8%;
@@ -329,6 +326,7 @@
 .why-title p {
   color: #131313;
   line-height: 1.7;
+  font-size: 19px;
 }
 
 .why-container {
